@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root {
+    --body-font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--body-font-family);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    width: 1120px;
+    margin: auto;
+}
+
+.game__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.game__smoll {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.game__taxt {
+    cursor: pointer;
+}
+
+.game__smoll__button {
+    width: 170px;
+    height: 50px;
+    border-radius: 8px;
+    background: none;
+    cursor: pointer;
+    background: #FFFFFF;
+    font-size: 17px;
+    transition: .6s;
+}
+
+.game__smoll__button:hover {
+    background: #263238;
+    color: #FFFFFF;
+    font-weight: 400;
+    transition: .6s;
+}
+
+.game__botton__everyone {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.game__botton__text {
+    margin-top: 80px;
+    position: relative;
+}
+
+.game__h1__text {
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-family: 400;
+}
+
+.game__p__text {
+    padding-bottom: 50px;
+}
+
+.game__button__smoll {
+    width: 290px;
+    height: 70px;
+    border-radius: 8px;
+    background: #263238;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 25px;
+    transition: .6s;
+}
+
+.game__button__smoll:hover {
+    background: #FFFFFF;
+    color: black;
+    font-weight: 400;
+    font-size: 25px;
+    transition: .6s;
+}
+
+.game__img {
+    width: 590px;
+    height: 570px;
+}
+
+.game__img__smoll {
+    width: 100%;
+    height: 100%;
+}
+
+.game__group {
+    position: absolute;
+    top: 230px;
+    transform: translateX(300%);
+}
+
+.notebook__auto{
+    display: flex;
+    justify-content: center;
+}
+
+.notebook__opshe{
+    width: 435px;
+    height: 800px;
+    border-radius: 10px;
+    background: #F5F5F5;
+}
+
+.notebook__text__text{
+    padding-left: 30px;
+}
+
+.notebook__h1__text{
+    padding-bottom: 20px;
+}
+
+.notebook__button__text{
+    padding-top: 30px;
+}
+
+.notebook__smoll__text{
+    width: 230px;
+    height: 50px;
+    border-radius: 5px;
+    background: #263238;
+    color: #F5F5F5;
+    font-size: 17px;
+    transition: .6s;
+}
+
+.notebook__smoll__text:hover{
+    background: #FFFFFF;
+    color: #263238;
+    transition: .6s;
+}
