@@ -24,7 +24,7 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding-top: 45px;
+    padding-top: 30px;
     align-items: center;
 }
 
@@ -51,6 +51,7 @@ body {
     background: transparent;
     border-radius: 5px;
     transition: .5s;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -102,6 +103,7 @@ body {
     border: none;
     color: #fff;
     transition: .5s;
+    cursor: pointer;
 }
 
 .header_btn:hover {
